@@ -8,6 +8,9 @@ class Stock:
 			print item + ":" , self.__dict__[item],"\n"
 	def printStock(self):
 		dic = self.__dict__
+
+		print "+"
+
 		print "股票名称:" , dic["name"]
 		print "代码:" , dic["code"]
 		print "更新时间:" , dic["date"] + " "+ dic["time"]
